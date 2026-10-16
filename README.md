@@ -46,7 +46,7 @@ Coursework designs implemented and verified on a DE10-Lite: 7-segment HEX decode
 
 ## 🏭 Experience
 
-**Electrical & Instrumentation Engineering Intern** — ExxonMobil, Golden Pass LNG (Summer 2026)
+**Electrical & Instrumentation Engineering Intern** — ExxonMobil (Summer 2026)
 Authored a standardized Electrical DMCC walkdown checklist grounded in NEC, NFPA 70E, NETA ATS, and IEEE standards.
 
 **Undergraduate Researcher** — AI × Cybersecurity
