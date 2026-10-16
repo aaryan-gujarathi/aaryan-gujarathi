@@ -1,6 +1,6 @@
 <!-- GitHub profile README: create a public repo named exactly <your-username> and drop this in as README.md -->
 
-# Hi, I'm Aaryan 👋
+# Hi, I'm Aaryan!
 
 **Electronics Engineering @ Texas A&M** · Digital design, AI hardware, and power/instrumentation
 
@@ -70,8 +70,7 @@ Building and modifying test benches in Rust.
 C++ · ROS 2 · FPGA timing closure · power electronics (closed-loop buck converter planned)
 
 ## 🏃 Off the bench
-Training for a full Ironman.
-Professional MMA fighter
+Love all kinds of sports, robotics, and traveling!
 ---
 
 📫 [LinkedIn](https://www.linkedin.com/in/aaryan-gujarathi/) · [Email](aaryang2007@tamu.edu)
