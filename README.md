@@ -1,5 +1,3 @@
-<!-- GitHub profile README: create a public repo named exactly <your-username> and drop this in as README.md -->
-
 # Hi, I'm Aaryan!
 
 **Electronics Engineering @ Texas A&M** · Digital design, AI hardware, and power/instrumentation
@@ -10,14 +8,14 @@ I work where silicon meets software: profiling ML workloads to find the real bot
 
 ## 🔬 Featured Projects
 
-### LLM Inference Profiling → Systolic Accelerator `in progress`
+### [LLM Inference Profiling → Systolic Accelerator](https://github.com/aaryan-gujarathi/llm-inference-profiling) `in progress`
 Measured where TinyLlama-1.1B actually spends time, then sized hardware to the data.
 - Profiled TinyLlama-1.1B (4-bit, `bitsandbytes`) on a T4 with `torch.profiler`
 - Roofline analysis: batch-1 decode is **memory-bound in both attention and FFN** (≈4 FLOPs/byte vs. T4 ridge point ≈203). The usual "FFN is compute-bound" assumption breaks at batch 1 because matrix dimensions cancel out of the intensity ratio
 - Designed an **8×8 weight-stationary systolic PE tile** sized to the measured `gate_proj` shape (2048×5632); ~230 ns first-principles latency estimate
 - Phase 3: SystemVerilog RTL — single PE verified in Icarus; full array → Verilator next
 
-`Python` `PyTorch` `SystemVerilog` `Icarus Verilog` `Verilator`
+`Python` `PyTorch` `SystemVerilog` `Icarus Verilog` `Verilator`  ·  **[View repo →](https://github.com/aaryan-gujarathi/llm-inference-profiling)**
 
 ### Transformer Inference ASIC — TinyTapeout / SKY130 `REV Silicon`
 Team tapeout of a quantized transformer accelerator under TinyTapeout's area, pin, and no-SRAM constraints.
@@ -71,6 +69,7 @@ C++ · ROS 2 · FPGA timing closure · power electronics (closed-loop buck conve
 
 ## 🏃 Off the bench
 Love all kinds of sports, robotics, and traveling!
+
 ---
 
-📫 [LinkedIn](https://www.linkedin.com/in/aaryan-gujarathi/) · [Email](aaryang2007@tamu.edu)
+📫 [LinkedIn](https://www.linkedin.com/in/aaryan-gujarathi/) · [Email](mailto:aaryang2007@tamu.edu)
